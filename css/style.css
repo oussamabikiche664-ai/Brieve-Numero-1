@@ -21,9 +21,8 @@ body {
 header {
     color: #0A1222;
     background-color: #FFFFFF;
-    width: 1024px;
+    width: 100%;
     height: 52px;
-
     display: flex;
 
     justify-content: space-between;
@@ -31,17 +30,22 @@ header {
     padding: auto;
     gap: 60px;
 
-    .header_button button{
+    .header_button button {
+
         background-color: #034BFF;
         color: #FFFFFF;
+        transform: translate(-80px);
+        padding: 1px 12px;
+        cursor: pointer;
+
     }
 }
 
 
 ul {
-width: 1024;
-height: 52;
-
+    width: 1024;
+    height: 52;
+    transform: translate(40px);
 
 
     display: flex;
@@ -52,80 +56,212 @@ height: 52;
 }
 
 .hero {
-   
+
     background-color: #08111D;
     padding-top: 96px;
-.hero_content1 > h1{
-    transform:translate(60px);
-    margin-top: 13px;
- font-size: 80px;
-}
-.hero_content2 > h1{
-    transform: translate(60px);
-    color: #034BFF;
-    font-size: 80px;
-}
-.symbole > h1{
-    color: chartreuse;
-transform: translate(270px);
-margin-top: -90px;
-font-size: 80px;
-}
-.expli > h4{
-    transform:translate(60px);
 
-}
+    .hero_content1>h1 {
+        transform: translate(120px);
+        margin-top: -50px;
+        font-size: 80px;
+    }
 
-.expli > h6{
-   transform:translate(60px);
-    margin-top: 14px;
-}
-
-
-}
-.hero_button{
-transform:translate(60px);
-    display: flex;
-gap: 13px;
-    .button1{
-  color: #FFFFFF;
-    background-color: #034BFF;
-    border: none;
-   text-align: center;
-    padding: 10px 13px;
-    margin-top: 30px;
-}
-    
-.button2{
-    background-color: #08111D;
-    color: white;
-     text-align: center;
- border: none;
-  margin-top: 30px;
-    
-}}
-
-
-
-
-.hero_img  {
-display: flex;
-flex-direction: row-reverse ;
-    
-    
- 
-    margin-top: -430px;
-    transform: translate(-230px);
-}
-
-.stats{
-    display: flex;
-    gap: 14px;
-    background-color: #FFFFFF;
-    color: #08111D;
-    
-    .symb1{
+    .hero_content2>h1 {
+        transform: translate(120px);
         color: #034BFF;
+        font-size: 80px;
+    }
+
+    .symbole>h1 {
+        color: chartreuse;
+        transform: translate(370px);
+        margin-top: -90px;
+        font-size: 80px;
+    }
+
+    .expli>h4 {
+        transform: translate(120px);
+
+    }
+
+    .expli>h6 {
+        transform: translate(120px);
+        margin-top: 14px;
+    }
+
+
+}
+
+.hero_button {
+    transform: translate(120px);
+    display: flex;
+    gap: 13px;
+
+    .button1 {
+        color: #FFFFFF;
+        background-color: #034BFF;
+        border: none;
+        text-align: center;
+        padding: 10px 13px;
+        margin-top: 30px;
+    }
+
+    .button2 {
+        background-color: #08111D;
+        color: white;
+        text-align: center;
+        border: none;
+        margin-top: 30px;
 
     }
 }
+
+
+
+
+.hero_img {
+    display: flex;
+    flex-direction: row-reverse;
+
+
+
+    margin-top: -367px;
+    transform: translate(0px);
+}
+
+.stats {
+    display: flex;
+    gap: 60px;
+    background-color: #FFFFFF;
+    color: #08111D;
+
+    .symb1 {
+        color: #034BFF;
+        font-size: 42px;
+        transform: translate(20px);
+
+    }
+
+    .one {
+        transform: translate(-33px);
+    }
+
+    .explii1 {
+        transform: translate(-185px);
+        margin-top: 30px;
+    }
+
+    .symb2 {
+        color: #034BFF;
+        font-size: 29px;
+        transform: translate(35px);
+    }
+
+    .two {
+        transform: translate(-20px);
+        font-size: 14px;
+        margin-top: 3px
+    }
+
+    .explii2 {
+        transform: translate(-120px);
+        margin-top: 30px;
+    }
+
+
+
+
+    .symb3 {
+        transform: translate(50px);
+        margin-top: 10px;
+        font-size: 29px;
+        color: #034BFF;
+    }
+
+    .three {
+        transform: translate(-10px);
+        margin-top: 4px;
+        font-size: 34px;
+    }
+
+    .explii3 {
+        transform: translate(-120px);
+        margin-top: 35px
+    }
+
+
+    .symb4 {
+        font-size: 29px;
+        margin-top: 8px;
+        color: #034BFF;
+    }
+
+    .four {
+        transform: translate(-48px);
+        font-size: 33px;
+        margin-top: 7px;
+    }
+
+    .explii4 {
+        margin-top: 37px;
+        transform: translate(-168px);
+    }
+}
+
+.environnement {
+    background-color: #F4F7FC;
+    height:500px;
+    
+    .explication1>h6 {
+        color: #034BFF;
+        transform: translate(44px);
+        font-size: 10px;
+        padding-top: 40px;
+    }
+
+    .explication2 {
+        color: #0A1222;
+        margin-top: 18px;
+        transform: translate(44px);
+        
+    }
+
+    .explication3 {
+        color: #0A1222;
+        font-size: 10px;
+        transform: translate(44px);
+        margin-top: 7px;
+        
+    }
+
+    .environnement_button button {
+        border-radius:7px;
+        transform: translate(44px);
+        margin-top: 60px;
+        background-color: #034BFF;
+        color: #F4F7FC;
+        padding: 2px 10px
+        
+    
+    }
+    .img_environnement1{
+             height: 185px;
+width: 202px;
+        transform:translate(300px);
+        margin-top:-180px;
+   
+    }
+    .img_environnement2{
+        transform:translate(690px);
+        margin-top:-50px;
+       
+        
+    }
+    .img_environnement3{
+       
+        transform: translate(960px);
+        margin-top:-313px;
+        
+    }
+}
+
