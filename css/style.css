@@ -396,4 +396,32 @@ ul {
         transform: translate(350px);
         margin-top: -54px;
     }
+    .symbb2{
+         transform: translate(338px);
+         margin-top: 10px;
+         
+         border-style: solid;
+         width: 43px;
+         height: 43px;
+         border-radius: 50%;
+         text-align:center;
+         padding-top: 8px;
+         border-color: #034BFF;
+     background-color: #034BFF;
+    }
+   .day2{
+    transform: translate(338px);
+    margin-top: 12px;
+   }
+    .expliii2{
+          transform: translate(338px);
+          margin-top:9px;
+          font-size: 9px;
+          width: 67px;
+
+    }
+    .point2{
+        transform: translate(450px);
+        margin-top: -93px;
+    }
 }
