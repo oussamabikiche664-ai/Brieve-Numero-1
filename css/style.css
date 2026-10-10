@@ -251,7 +251,8 @@ ul {
     }
 
     .img_environnement1 {
-
+        position: relative;
+        z-index: 2;
 
         transform: translate(470px);
         margin-top: -340px;
@@ -267,7 +268,7 @@ ul {
         border-radius: 7px;
         padding: 12px 22px;
         width: 200px;
-        transform: translate(520px);
+        transform: translate(540px);
         margin-top: 114px;
     }
 
@@ -275,11 +276,12 @@ ul {
         color: #F4F7FC;
         border-style: solid;
         background-color: #08111D;
-        padding: 12px 22px;
+        padding: 12px 2px;
         border-radius: 7px;
-        width: 200px;
-        transform: translate(1050px);
-
+        width: 250px;
+        transform: translate(980px);
+        position: relative;
+        z-index: 3;
 
 
     }
@@ -297,10 +299,38 @@ ul {
 
     }
 
+    .box-blue {
+        position: relative;
+        z-index: 1;
+        background-color: #034BFF;
+
+        width: 90px;
+        height: 100px;
+
+        transform: translate(450px) rotate(-10deg);
+
+        margin-top: -80px;
+
+    }
+
     .img_environnement2 {
         transform: translate(860px);
         margin-top: -300px;
+        z-index: 2;
+        position: relative;
+    }
 
+    .box-blue1 {
+        position: relative;
+        z-index: 1;
+        background-color: #034BFF;
+
+        width: 100px;
+        height: 100px;
+        border-radius: 7px;
+        transform: translate(1000px) rotate(30deg);
+
+        margin-top: -260px;
 
     }
 
@@ -309,5 +339,61 @@ ul {
         transform: translate(1160px);
         margin-top: -473px;
 
+    }
+}
+
+.journey {
+    background-color: #08111D;
+    height: 400px;
+
+    .journey1 {
+        padding-top: 42px;
+        transform: translate(53px);
+        font-size: 49px;
+
+
+
+    }
+
+    .journey2 {
+        transform: translate(60px);
+        font-size: 19px;
+    }
+
+    .num1 {
+        margin-top: 23px;
+        transform: translate(94px);
+    }
+
+    .symbb1 {
+        border-style: solid;
+        border-radius: 50%;
+        width: 43px;
+        height: 43px;
+        text-align: center;
+        border: #034BFF;
+        background-color: #034BFF;
+        font-size: 32px;
+        transform: translate(80px);
+        margin-top: 9px;
+    }
+    .day1{
+        transform: translate(84px);
+        margin-top: 12px;
+    }
+    .expliii1{
+         transform: translate(84px);
+         margin-top: 9px;
+         font-size: 9px;
+         width: 55px;
+    }
+    .point1{
+        transform: translate(190px);
+        margin-top: -90px;
+    }
+
+    .num2{
+        transform: translate(350px);
+        margin-top: -54px;
     }
 }
