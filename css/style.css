@@ -392,6 +392,8 @@ ul {
         margin-top: -90px;
     }
 
+  
+  
     .num2{
         transform: translate(350px);
         margin-top: -54px;
@@ -423,5 +425,130 @@ ul {
     .point2{
         transform: translate(450px);
         margin-top: -93px;
+    }
+
+  
+  
+    .num3{
+        transform: translate(600px);
+        margin-top: -52px;
+
+    }
+    .symbb3{
+        transform:translate(588px);
+        font-size:26px;
+        border:green ;
+        width: 43px;
+        height: 43px;
+        text-align: center;
+        background-color: green;
+        border-radius: 50%;
+margin-top: 8px;
+
+    }
+    .day3{
+        transform: translate(580px);
+margin-top: 11px;
+    }
+    .expliii3{
+        transform: translate(579px);
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .point3{
+        transform: translate(700px);
+        margin-top: -96px;
+    }
+   
+   
+    .num4{
+        transform: translate(852px);
+        margin-top: -50px;
+
+    }
+    .symbb4{
+        transform: translate(840px);
+        font-size: 26px;
+        
+        background-color: #6744FF;
+        width: 43px;
+        height: 43px;
+        text-align: center;
+        border-radius: 50%;
+        padding-top: 6px;
+        margin-top: 8px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .day4{
+        transform: translate(827px);
+        margin-top: 10px;
+    }
+    .expliii4{
+        transform: translate(826px);
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .point4{
+        transform: translate(950px);
+        margin-top: -96px;
+    }
+    
+
+
+    .num5{
+        transform: translate(1100px);
+        margin-top: -49px;
+    }
+    .symbb5{
+        transform: translate(1088px);
+        margin-top: 9px;
+        border: #034BFF;
+        background-color: #034BFF;
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 4px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 26px;
+
+    }
+    .day5{
+        transform: translate(1079px);
+        margin-top: 9px;
+    }
+    .expliii5{
+        transform: translate(1079px);
+        font-size: 10px;
+        margin-top: 6px;
+    }
+    .point5{
+        transform: translate(1190px);
+        margin-top: -95px;
+    }
+
+
+    .num6{
+        transform:translate(1340px);
+        margin-top:-44px;
+    }
+    .symbb6{
+        transform: translate(1330px);
+        font-size: 26px;
+        background-color: #C7F64A;
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .day6{
+        transform: translate(1320px);
+        margin-top: 9px;
+    }
+    .expliii6{
+        transform: translate(1320px);
+        font-size: 10px;
+        margin-top: 6px;
     }
 }
